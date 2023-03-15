@@ -1,7 +1,7 @@
 # springboot-bci-assessment
 Spring Boot RESTful API for user creation
 
-> To compile and run the project, just use the command `docker-compose up`.
+> To compile and run the project, just use the command `spring-boot:run`.
 
 > Email and Password validation regular expressions can be configured in the `application.yml` file in the `validation.email` and `validation.password` properties. The respective error messages can be configured in the `messages.properties` file in the `email.message` and `password.message` properties.
 
