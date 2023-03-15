@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  springboot-bci-assessment:
+    image: 'springboot-bci-assessment:latest'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: springboot-bci-assessment
+    ports:
+      - "8080:8080"
+    restart: always
+    networks:
+      - spring-cloud-network
+
+networks:
+  spring-cloud-network:
+    driver: bridge
