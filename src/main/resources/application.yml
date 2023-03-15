@@ -9,6 +9,9 @@ spring:
       enabled: true
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
+springdoc:
+  api-docs.path: /api-docs
+  swagger-ui.path: /swagger-ui.html
 validation:
   email: '^[a-z]+@dominio.cl$'
   password: '^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[#$@!%&*?])[A-Za-z\d#$@!%&*?]{8,}$'

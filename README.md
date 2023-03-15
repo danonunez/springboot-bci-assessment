@@ -7,6 +7,10 @@ Spring Boot RESTful API for user creation
 
 > The project uses H2 in-memory database, and does not need a build script.
 
+## Swagger
+
+- http://localhost:8080/swagger-ui/index.html
+
 ## Endpoints
 
 - Create User: POST http://localhost:8080/api/users
